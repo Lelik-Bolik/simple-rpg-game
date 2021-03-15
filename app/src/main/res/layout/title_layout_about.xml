@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/_11sdp"
+    android:paddingBottom="@dimen/_8sdp"
+    android:soundEffectsEnabled="false">
+
+    <TextView
+        android:id="@+id/first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:fontFamily="@font/aldrich"
+        android:gravity="center"
+        android:letterSpacing="0.1"
+        android:text="WB"
+        android:textAlignment="center"
+        android:textColor="@color/lighterLightBlack"
+        android:textSize="@dimen/_18ssp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/first"
+        android:layout_alignStart="@+id/first"
+        android:layout_alignEnd="@+id/first"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:fontFamily="@font/aldrich"
+        android:letterSpacing="0.1"
+        android:paddingStart="@dimen/_8sdp"
+        android:paddingEnd="@dimen/_8sdp"
+        android:text="Icons by icons8"
+        android:textAlignment="center"
+        android:textColor="@color/lighterLightBlack"
+        android:textSize="@dimen/_8ssp"
+        android:textStyle="bold" />
+</RelativeLayout>
